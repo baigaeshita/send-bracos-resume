@@ -1,0 +1,6 @@
+framework module Pods_gotobrocas {
+  umbrella header "Pods-gotobrocas-umbrella.h"
+
+  export *
+  module * { export * }
+}

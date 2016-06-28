@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		701DD0D71D22D57700D0EF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DD0D61D22D57700D0EF2C /* AppDelegate.swift */; };
+		701DD0D91D22D57700D0EF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DD0D81D22D57700D0EF2C /* ViewController.swift */; };
+		701DD0DC1D22D57700D0EF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701DD0DA1D22D57700D0EF2C /* Main.storyboard */; };
+		701DD0DE1D22D57700D0EF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701DD0DD1D22D57700D0EF2C /* Assets.xcassets */; };
+		701DD0E11D22D57700D0EF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701DD0DF1D22D57700D0EF2C /* LaunchScreen.storyboard */; };
+		7F9467AE1C6CAC152C71C660 /* Pods_gotobrocas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F61F4A1489EA09D8447373A /* Pods_gotobrocas.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F61F4A1489EA09D8447373A /* Pods_gotobrocas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotobrocas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701DD0D31D22D57700D0EF2C /* gotobrocas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gotobrocas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		701DD0D61D22D57700D0EF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		701DD0D81D22D57700D0EF2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		701DD0DB1D22D57700D0EF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		701DD0DD1D22D57700D0EF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701DD0E01D22D57700D0EF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		701DD0E21D22D57700D0EF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A279C82A0013D9D1E64CA3B /* Pods-gotobrocas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotobrocas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gotobrocas/Pods-gotobrocas.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE0721EEE91D42367C071E7 /* Pods-gotobrocas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotobrocas.release.xcconfig"; path = "Pods/Target Support Files/Pods-gotobrocas/Pods-gotobrocas.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701DD0D01D22D57700D0EF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9467AE1C6CAC152C71C660 /* Pods_gotobrocas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		470A1588893F49010C596F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A279C82A0013D9D1E64CA3B /* Pods-gotobrocas.debug.xcconfig */,
+				DAE0721EEE91D42367C071E7 /* Pods-gotobrocas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		701DD0CA1D22D57700D0EF2C = {
+			isa = PBXGroup;
+			children = (
+				701DD0D51D22D57700D0EF2C /* gotobrocas */,
+				701DD0D41D22D57700D0EF2C /* Products */,
+				470A1588893F49010C596F1B /* Pods */,
+				7267F28F1F387FF0018CFF35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		701DD0D41D22D57700D0EF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701DD0D31D22D57700D0EF2C /* gotobrocas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701DD0D51D22D57700D0EF2C /* gotobrocas */ = {
+			isa = PBXGroup;
+			children = (
+				701DD0D61D22D57700D0EF2C /* AppDelegate.swift */,
+				701DD0D81D22D57700D0EF2C /* ViewController.swift */,
+				701DD0DA1D22D57700D0EF2C /* Main.storyboard */,
+				701DD0DD1D22D57700D0EF2C /* Assets.xcassets */,
+				701DD0DF1D22D57700D0EF2C /* LaunchScreen.storyboard */,
+				701DD0E21D22D57700D0EF2C /* Info.plist */,
+			);
+			path = gotobrocas;
+			sourceTree = "<group>";
+		};
+		7267F28F1F387FF0018CFF35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F61F4A1489EA09D8447373A /* Pods_gotobrocas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701DD0D21D22D57700D0EF2C /* gotobrocas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701DD0E51D22D57700D0EF2C /* Build configuration list for PBXNativeTarget "gotobrocas" */;
+			buildPhases = (
+				58C095378E33F2928965C843 /* [CP] Check Pods Manifest.lock */,
+				701DD0CF1D22D57700D0EF2C /* Sources */,
+				701DD0D01D22D57700D0EF2C /* Frameworks */,
+				701DD0D11D22D57700D0EF2C /* Resources */,
+				9A61F4E1ED99798C1C5A8446 /* [CP] Embed Pods Frameworks */,
+				E9E151B1AD9B2C7F0D36477D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gotobrocas;
+			productName = gotobrocas;
+			productReference = 701DD0D31D22D57700D0EF2C /* gotobrocas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701DD0CB1D22D57700D0EF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Natata;
+				TargetAttributes = {
+					701DD0D21D22D57700D0EF2C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 701DD0CE1D22D57700D0EF2C /* Build configuration list for PBXProject "gotobrocas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 701DD0CA1D22D57700D0EF2C;
+			productRefGroup = 701DD0D41D22D57700D0EF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701DD0D21D22D57700D0EF2C /* gotobrocas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701DD0D11D22D57700D0EF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701DD0E11D22D57700D0EF2C /* LaunchScreen.storyboard in Resources */,
+				701DD0DE1D22D57700D0EF2C /* Assets.xcassets in Resources */,
+				701DD0DC1D22D57700D0EF2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58C095378E33F2928965C843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A61F4E1ED99798C1C5A8446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotobrocas/Pods-gotobrocas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E151B1AD9B2C7F0D36477D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotobrocas/Pods-gotobrocas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701DD0CF1D22D57700D0EF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701DD0D91D22D57700D0EF2C /* ViewController.swift in Sources */,
+				701DD0D71D22D57700D0EF2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		701DD0DA1D22D57700D0EF2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701DD0DB1D22D57700D0EF2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		701DD0DF1D22D57700D0EF2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701DD0E01D22D57700D0EF2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		701DD0E31D22D57700D0EF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		701DD0E41D22D57700D0EF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701DD0E61D22D57700D0EF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A279C82A0013D9D1E64CA3B /* Pods-gotobrocas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gotobrocas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakuma.natata.gotobrocas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		701DD0E71D22D57700D0EF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE0721EEE91D42367C071E7 /* Pods-gotobrocas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gotobrocas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakuma.natata.gotobrocas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701DD0CE1D22D57700D0EF2C /* Build configuration list for PBXProject "gotobrocas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701DD0E31D22D57700D0EF2C /* Debug */,
+				701DD0E41D22D57700D0EF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701DD0E51D22D57700D0EF2C /* Build configuration list for PBXNativeTarget "gotobrocas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701DD0E61D22D57700D0EF2C /* Debug */,
+				701DD0E71D22D57700D0EF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701DD0CB1D22D57700D0EF2C /* Project object */;
+}
